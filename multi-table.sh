@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # 20172510 hyemin Kim assignment
 
