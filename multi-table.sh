@@ -17,7 +17,7 @@ for row in $(seq 1 $1)
 do
         for column in $(seq 1 $2)
         do
-                echo $1"*"$2"="`expr $row \* $column`
+                echo $row"*"$column"="`expr $row \* $column`
         done
         echo ""
 done
