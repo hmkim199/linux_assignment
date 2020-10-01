@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# 20172510 hyemin Kim assignment
+
 echo -n "input rows and columns : "
 read rows columns
 
@@ -9,8 +11,7 @@ if ! [[ $rows =~ $re && $columns =~ $re ]] ; then
 	exit 1
 fi
 
-if [ ${rows} -lt 1 ] || [ ${columns} -lt 1 ]
-then
+if [ ${rows} -lt 1 ] || [ ${columns} -lt 1 ] ; then
         echo "wrong input : you have to input number greater than 0."
         exit 0
 fi
